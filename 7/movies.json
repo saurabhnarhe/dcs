@@ -1,0 +1,17 @@
+ 
+    {"movies": [
+      { "movie-id": 1,
+        "movie-name": "ABCD",
+        "duration" : 2
+      },
+      { "movie-id": 2,
+        "movie-name": "EFGH",
+        "duration": 2.3
+      },{ "movie-id": 3,
+        "movie-name": "IJKL",
+        "duration" : 2.5
+      },{ "movie-id": 4,
+        "movie-name": "MNOP",
+        "duration" : 3
+      }
+    ]} 

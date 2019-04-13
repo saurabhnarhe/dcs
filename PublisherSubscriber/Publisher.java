@@ -1,13 +1,3 @@
-//============================================================================
-//
-//  Name        : Publisher.java
-//  Author      : Sachin Vijaykumar Kunte
-//  Copyright   : Copyright ©2019 by Sachin Kunte All rights reserved.
-//  Description : A Java program for a Publisher implementation  
-//  contact     : kuntesv@gmail.com
-//
-//============================================================================
-
 package pubsub;
 
 import javax.jms.*;
