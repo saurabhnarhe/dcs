@@ -15,9 +15,10 @@ public class Server extends UnicastRemoteObject implements Adder {
     
     public static void main(String args[]) throws RemoteException {
         try {
-            Registry reg = LocateRegistry.createRegistry(9999);
+            int port = 9999;
+            Registry reg = LocateRegistry.createRegistry(port);
             reg.rebind("test", new Server());
-            System.out.println("Server running...");
+            System.out.println("Server running...\nlocalhost:"+port);
         } catch(RemoteException e) {
             System.out.println(e);
         }
