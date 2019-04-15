@@ -16,7 +16,7 @@ public class Publisher {
 		// JMS messages are sent and received using a Session. We will
 		// create here a non-transactional session object. If you want
 		// to use transactions you should set the first parameter to 'true'
-
+		
 		Session session = connection.createSession(false, Session.AUTO_ACKNOWLEDGE);
 		Topic topic = session.createTopic("CL9");
 		MessageProducer producer = session.createProducer(topic);

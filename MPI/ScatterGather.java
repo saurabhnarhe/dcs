@@ -1,5 +1,4 @@
-
- import mpi.MPI;
+import mpi.MPI;
 
     public class ScatterGather {
    	 public static void main(String args[]){
